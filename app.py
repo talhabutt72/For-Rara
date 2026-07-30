@@ -22,6 +22,7 @@ CONFIG = {
     "his_tz_offset": 5,              # Pakistan = UTC+5
     "her_lat": 4.2449, "her_lon": 117.8998,   # Tawau, Sabah
     "his_lat": 31.7167, "his_lon": 73.9853,   # Sheikhupura, Punjab
+    "relationship_start": "2024-01-01",       # TODO: set to your real start date
     "inside_jokes": [
         "the great sock debate of last winter",
         "that voice note that was 90% laughing",
@@ -62,6 +63,17 @@ html, body, [class*="css"] {{
 
 .stApp {{
     background: linear-gradient(180deg, #FBEEE0 0%, #F5DCC8 100%);
+}}
+
+/* Bulletproof text color — beats Streamlit's own widget styling */
+.stApp, .stApp p, .stApp li, .stApp label, .stApp span, .stApp div {{
+    color: #5B4636 !important;
+}}
+section[data-testid="stSidebar"] * {{
+    color: #5B4636 !important;
+}}
+.stApp small, [data-testid="stCaptionContainer"] * {{
+    color: #7A6852 !important;
 }}
 
 h1, h2, h3 {{
@@ -163,8 +175,20 @@ if page == "🏡 Home":
     No occasion today. No anniversary, no excuse. Just a small world I built
     because {CONFIG['his_city'].split(',')[0]} and {CONFIG['her_city'].split(',')[0]} are far apart
     and I wanted you to have something that isn't.<br><br>
-    Look around — there's a complaint box, a shared sky, a guessing game,
-    a newspaper that's only ever about us, and a little scroll of my handwriting.
+    Look around — there's a complaint box, a shared sky, an imagined city where
+    we're never actually apart, and a newspaper that's only ever about us.
+    </div>
+    """, unsafe_allow_html=True)
+
+    start = datetime.date.fromisoformat(CONFIG["relationship_start"])
+    days = (datetime.date.today() - start).days
+    st.markdown(f"""
+    <div class="mile-card" style="text-align:center;">
+    <div style="font-size:2.2rem; font-family:'Fredoka',sans-serif; color:#8CA080;">{days:,}</div>
+    <div>days of choosing this, long distance and all</div>
+    <div style="font-size:0.85rem; margin-top:0.4rem;">
+    that's roughly {days*24:,} hours, {days//7:,} weeks, and at least {days:,} good-morning texts — probably more
+    </div>
     </div>
     """, unsafe_allow_html=True)
 
