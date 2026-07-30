@@ -180,7 +180,7 @@ if page == "🏡 Home":
     because {CONFIG['his_city'].split(',')[0]} and {CONFIG['her_city'].split(',')[0]} are far apart
     and I wanted you to have something that isn't.<br><br>
     Look around — there's a complaint box, a shared sky, an imagined city where
-    we're never actually apart, and a newspaper that's only ever about us.
+    we're never actually apart (still working on it, complete it soon), and a newspaper that's only ever about us.
     </div>
     """, unsafe_allow_html=True)
 
