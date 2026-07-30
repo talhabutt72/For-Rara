@@ -22,7 +22,7 @@ CONFIG = {
     "his_tz_offset": 5,              # Pakistan = UTC+5
     "her_lat": 4.2449, "her_lon": 117.8998,   # Tawau, Sabah
     "his_lat": 31.7167, "his_lon": 73.9853,   # Sheikhupura, Punjab
-    "relationship_start": "2024-01-01",       # TODO: set to your real start date
+    "relationship_start": "2025-11-13",       # TODO: set to your real start date
     "inside_jokes": [
         "the great sock debate of last winter",
         "that voice note that was 90% laughing",
