@@ -65,15 +65,19 @@ html, body, [class*="css"] {{
     background: linear-gradient(180deg, #FBEEE0 0%, #F5DCC8 100%);
 }}
 
-/* Bulletproof text color — beats Streamlit's own widget styling */
-.stApp, .stApp p, .stApp li, .stApp label, .stApp span, .stApp div {{
-    color: #5B4636 !important;
-}}
+/* Targeted overrides — fix Streamlit's own widget text colors without
+   clobbering our intentional accent colors elsewhere */
 section[data-testid="stSidebar"] * {{
     color: #5B4636 !important;
 }}
-.stApp small, [data-testid="stCaptionContainer"] * {{
+[data-testid="stWidgetLabel"] p {{
+    color: #5B4636 !important;
+}}
+[data-testid="stCaptionContainer"] * {{
     color: #7A6852 !important;
+}}
+[data-testid="stMarkdownContainer"] p {{
+    color: #5B4636;
 }}
 
 h1, h2, h3 {{
@@ -184,11 +188,10 @@ if page == "🏡 Home":
     days = (datetime.date.today() - start).days
     st.markdown(f"""
     <div class="mile-card" style="text-align:center;">
-    <div style="font-size:2.2rem; font-family:'Fredoka',sans-serif; color:#8CA080;">{days:,}</div>
-    <div>days of choosing this, long distance and all</div>
-    <div style="font-size:0.85rem; margin-top:0.4rem;">
-    that's roughly {days*24:,} hours, {days//7:,} weeks, and at least {days:,} good-morning texts — probably more
-    </div>
+    <div style="font-size:2.2rem; font-family:'Fredoka',sans-serif; color:#8CA080; font-weight:700;">{days:,}</div>
+    <div style="color:#5B4636;">one of the best days of my lifee, you are soo amazingg, i love you sooo muchh.</div>
+    <div style="font-size:0.85rem; margin-top:0.4rem; color:#7A6852;">
+    that's roughly {days*24:,} hours, {days//7:,} weeks, and {days:,} days and i missed you moree than these numbers</div>
     </div>
     """, unsafe_allow_html=True)
 
