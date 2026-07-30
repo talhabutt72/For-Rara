@@ -81,11 +81,15 @@ section[data-testid="stSidebar"] {{
     padding: 1.3rem 1.6rem;
     box-shadow: 0 4px 14px rgba(90, 70, 50, 0.08);
     margin-bottom: 1rem;
+    color: #5B4636 !important;
+}}
+.mile-card, .mile-card p, .mile-card b, .mile-card i {{
+    color: #5B4636 !important;
 }}
 
 .ticket-header {{
     background: #8CA080;
-    color: #FFF8EE;
+    color: #FFF8EE !important;
     padding: 0.6rem 1rem;
     border-radius: 12px 12px 0 0;
     font-family: 'Fredoka', sans-serif;
@@ -99,6 +103,10 @@ section[data-testid="stSidebar"] {{
     border-top: 4px double #5B4636;
     padding: 0.6rem 0;
     margin-bottom: 0.8rem;
+    color: #5B4636 !important;
+}}
+.masthead p {{
+    color: #5B4636 !important;
 }}
 
 .masthead h1 {{
@@ -138,7 +146,7 @@ st.sidebar.image(RARA_IMG, width='stretch')
 st.sidebar.markdown(f"### {CONFIG['his_city'].split(',')[0]} ↔ {CONFIG['her_city'].split(',')[0]}")
 page = st.sidebar.radio(
     "Wander around",
-    ["🏡 Home", "📮 Complaint Box", "✨ Same Sky", "📍 Where's Talo Right Now", "📰 The Talo Times"],
+    ["🏡 Home", "✨ Same Sky", "🗺️ If We Were In The Same City", "📰 The Talo Times", "📮 Complaint Box"],
     label_visibility="collapsed",
 )
 
@@ -334,68 +342,60 @@ elif page == "✨ Same Sky":
 # ============================================================
 # WHERE'S TALO RIGHT NOW
 # ============================================================
-elif page == "📍 Where's Talo Right Now":
-    st.markdown("<h2>📍 Where's Talo Right Now?</h2>", unsafe_allow_html=True)
+elif page == "🗺️ If We Were In The Same City":
+    st.markdown("<h2>🗺️ If We Were In The Same City</h2>", unsafe_allow_html=True)
     st.markdown(f"""
     <div class="mile-card">
-    We talk every day now, but you still go quiet on calls sometimes — so here's
-    a guess machine for the silence. Tap it whenever you're wondering.
+    Not real yet. But it will be. Pick a spot in {CONFIG['his_city'].split(',')[0]}
+    and see what a Talo & Rara afternoon there would actually look like.
     </div>
     """, unsafe_allow_html=True)
 
-    now_utc = datetime.datetime.utcnow()
-    his_local = now_utc + datetime.timedelta(hours=CONFIG["his_tz_offset"])
-    hour = his_local.hour
-
-    GUESSES = {
-        "night": [
-            "Definitely asleep, probably with the phone face-up in case you text.",
-            "Half asleep, replaying today's call in his head.",
-        ],
-        "early": [
-            "Just woken up, first thought is always you, second thought is chai.",
-            "Scrolling nothing important, secretly hoping you're online too.",
-        ],
-        "morning": [
-            "Deep in some ML project, but with your chat open in another tab.",
-            "Pretending to focus on work, definitely not focused on work.",
-        ],
-        "afternoon": [
-            "Debugging something and blaming the code, not himself.",
-            "Thinking about tonight's call and what he wants to actually say this time.",
-        ],
-        "evening": [
-            "Getting ready for the call, rehearsing an opening line he won't use.",
-            "Sitting quietly, phone nearby, just waiting for your name to pop up.",
-        ],
-        "late": [
-            "On the call, gone quiet, but not because he ran out of things to say.",
-            "Wishing the silence on the call was just you sitting next to him instead.",
-        ],
+    SPOTS = {
+        "☕ The corner cafe": (
+            "Rara insists the chai here is too sweet. Talo ordered it that way on "
+            "purpose weeks ago and has never confessed. They split one samosa, "
+            "argue about it being one bite too small, order a second."
+        ),
+        "🏰 Hiran Minar": (
+            "Talo drags Rara out here at golden hour, swearing the lake looks better "
+            "at sunset. It does. Neither of them says anything for a while — they "
+            "just sit at the edge of the water and let it be quiet on purpose, for once."
+        ),
+        "🛍️ The evening market": (
+            "Rara bargains like it's a sport. Talo just stands there holding bags, "
+            "already outvoted on three things he swore he didn't need. He needed them."
+        ),
+        "🌳 The park bench": (
+            "Ten minutes turns into two hours. Talo brought his phone to show her a "
+            "meme and forgot to open it. They just talk. It's the most boring, "
+            "most perfect part of the whole day."
+        ),
+        "🎬 The old cinema": (
+            "Rara picks the movie. Talo pretends to watch it and mostly watches her "
+            "laugh at the parts that aren't even that funny. Worth the ticket."
+        ),
+        "🏯 Sheikhupura Fort": (
+            "Talo does a terrible, overconfident tour-guide voice reciting half-remembered "
+            "history. Rara corrects him twice. He keeps going anyway. She lets him."
+        ),
     }
 
-    if 0 <= hour < 5:
-        bucket = "night"
-    elif 5 <= hour < 9:
-        bucket = "early"
-    elif 9 <= hour < 14:
-        bucket = "morning"
-    elif 14 <= hour < 18:
-        bucket = "afternoon"
-    elif 18 <= hour < 22:
-        bucket = "evening"
-    else:
-        bucket = "late"
+    cols = st.columns(3)
+    for i, spot in enumerate(SPOTS.keys()):
+        with cols[i % 3]:
+            if st.button(spot, key=f"spot_{i}", width='stretch'):
+                st.session_state["picked_spot"] = spot
 
-    if st.button("What's he doing right now?"):
-        guess = random.choice(GUESSES[bucket])
-        st.markdown(f"""
-        <div class="mile-card" style="text-align:center;">
-        🕐 It's currently <b>{his_local.strftime('%I:%M %p')}</b> in {CONFIG['his_city'].split(',')[0]}<br><br>
-        <i>"{guess}"</i>
-        </div>
-        """, unsafe_allow_html=True)
-        st.caption("A guess, not a tracker — he'll tell you the real answer if you ask him tonight.")
+    picked = st.session_state.get("picked_spot", list(SPOTS.keys())[0])
+    st.markdown(f"""
+    <div class="mile-card" style="text-align:center; margin-top:1rem;">
+    <h3 style="margin-top:0;">{picked}</h3>
+    <i>{SPOTS[picked]}</i>
+    </div>
+    """, unsafe_allow_html=True)
+    st.caption("Sketch-and-words version for now — drop real Talo & Rara scene "
+               "illustrations into assets/spots/ later and this card can show them instead.")
 
 # ============================================================
 # THE TALO TIMES
