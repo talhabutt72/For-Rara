@@ -469,26 +469,6 @@ elif page == "🗺️ If We Were In The Same City":
             "source": "https://commons.wikimedia.org/wiki/File:Shalimar_Gardens_(Lahore)_1.jpg",
             "credit": "Photo: Guilhem Vellut — Wikimedia Commons, CC BY 2.0",
         },
-        "🕌 Wazir Khan Mosque": {
-            "story": (
-                "A little walk through the Walled City, with Rara stopping every few "
-                "minutes to look at the tiles. Talo says they are beautiful. Rara says "
-                "he has only noticed because she pointed them out. He has no defense."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Wazir_khan_Mosque_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Wazir_khan_Mosque_Lahore.jpg",
-            "credit": "Photo: Saadmuzafar — Wikimedia Commons, CC BY-SA 4.0",
-        },
-        "🍽️ Fort Road Food Street": {
-            "story": (
-                "They arrive hungry and immediately forget the plan. One restaurant turns "
-                "into another snack, then chai, then dessert. Talo says they should walk "
-                "after dinner. Rara agrees, provided the walk includes another snack."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Badshahi_Mosque_from_New_Food_Street%2C_Fort_Road%2C_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Badshahi_Mosque_from_New_Food_Street,_Fort_Road,_Lahore.jpg",
-            "credit": "Photo: Khadijareyaz — Wikimedia Commons, CC BY-SA 4.0",
-        },
         "🫖 Rooftop chai at Cuckoo's Den": {
             "story": (
                 "This is the tea one. Rooftop, evening air, Badshahi Mosque glowing "
@@ -496,31 +476,11 @@ elif page == "🗺️ If We Were In The Same City":
                 "screen. Just two cups of chai, one ridiculous amount of staring at the "
                 "mosque, and Rara quietly saying, 'I wish we could do this every week.'"
             ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/A_view_of_Badshahi_Mosque_from_Cuckoo_Den%27s_Rooftop_in_night.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Badshahi_Mosque_from_Cuckoo_Den%27s_Rooftop_in_night.jpg",
-            "credit": "Photo: Bilalnaqeeb — Wikimedia Commons, CC BY-SA 4.0",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Night_view_of_Badshahi_Masjid_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Night_view_of_Badshahi_Masjid_Lahore.jpg",
+            "credit": "Photo: Intisar Ali — Wikimedia Commons, CC BY-SA 4.0",
         },
 
-        "☕ The corner cafe": {
-            "story": (
-                "Rara orders chai. Talo says it is too sweet. Rara says that is exactly "
-                "how chai is supposed to taste. They split one samosa, argue about who got "
-                "the bigger piece, and somehow spend two hours there."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Pakistan_tea_house_%2810712163555%29.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Pakistan_tea_house_(10712163555).jpg",
-            "credit": "Photo: Anne Rigby / AusAID — Wikimedia Commons, CC BY 2.0",
-        },
-        "🛍️ The evening market": {
-            "story": (
-                "Rara bargains like it is an Olympic sport. Talo carries the bags and "
-                "quietly loses every argument about whether they actually needed the "
-                "thing they just bought. They did. Obviously."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A_bazaar_in_Lahore%2C_Pakistan.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:A_bazaar_in_Lahore,_Pakistan.jpg",
-            "credit": "Photo: William Lautman — Wikimedia Commons, CC BY-SA 4.0",
-        },
         "🌳 The park bench": {
             "story": (
                 "They sit down for ten minutes and stay for two hours. Talo opens his "
