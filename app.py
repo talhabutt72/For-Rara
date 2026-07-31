@@ -389,7 +389,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "slowly through the old walls, stop for photos, and argue over which one "
                 "looks better. Neither wants to leave first."
             ),
-            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sheikhupura_Fort_White_Haveli.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sheikhupura_Fort_White_Haveli.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:Sheikhupura_Fort_White_Haveli.jpg",
             "credit": "Photo: Omarjhawarian — Wikimedia Commons, CC BY-SA 3.0",
         },
@@ -400,7 +400,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "to sit beside her without checking the time. They take one photo, then "
                 "forget about the camera."
             ),
-            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hiran_Minaar,_Sheikhupura.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hiran_Minar%2C_Sheikhupura.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:Hiran_Minaar,_Sheikhupura.jpg",
             "credit": "Photo: Taeja — Wikimedia Commons, CC BY-SA 4.0",
         },
@@ -411,7 +411,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "Rara gets unexpectedly sentimental. Talo pretends not to notice because "
                 "he is absolutely going to tease her about it later."
             ),
-            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shrine_of_Waris_Shah.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Shrine_of_Waris_Shah.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:Shrine_of_Waris_Shah.jpg",
             "credit": "Photo: Nawab Afridi — Wikimedia Commons, CC BY-SA 4.0",
         },
@@ -422,7 +422,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "and Rara making fun of how seriously he takes the score. A very normal "
                 "day. Exactly the point."
             ),
-            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
             "credit": "Photo: Basit Nadeem — Wikimedia Commons, CC BY-SA 4.0",
         },
@@ -432,7 +432,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "how chai is supposed to taste. They split one samosa, argue about who got "
                 "the bigger piece, and somehow spend two hours there."
             ),
-            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pakistan_tea_house_(10712163555).jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Pakistan_tea_house_%2810712163555%29.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:Pakistan_tea_house_(10712163555).jpg",
             "credit": "Photo: Anne Rigby / AusAID — Wikimedia Commons, CC BY 2.0",
         },
@@ -442,7 +442,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "quietly loses every argument about whether they actually needed the "
                 "thing they just bought. They did. Obviously."
             ),
-            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A_bazaar_in_Lahore,_Pakistan.jpg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A_bazaar_in_Lahore%2C_Pakistan.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:A_bazaar_in_Lahore,_Pakistan.jpg",
             "credit": "Photo: William Lautman — Wikimedia Commons, CC BY-SA 4.0",
         },
@@ -452,9 +452,9 @@ elif page == "🗺️ If We Were In The Same City":
                 "phone to show her something and forgets what it was. They just talk. "
                 "No big plan. No occasion. Just finally being in the same place."
             ),
-            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bench_in_Jinnah_Garden_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Bench_in_Jinnah_Garden_Lahore.jpg",
-            "credit": "Photo: Wikimedia Commons — see source page for the photographer and license",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Bagh-e-Jinnah_Lahore_Pakistan.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Bagh-e-Jinnah_Lahore_Pakistan.jpg",
+            "credit": "Photo: Amnagondal — Wikimedia Commons, CC BY-SA 4.0",
         },
     }
 
