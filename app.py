@@ -180,7 +180,7 @@ if page == "🏡 Home":
     because {CONFIG['his_city'].split(',')[0]} and {CONFIG['her_city'].split(',')[0]} are far apart
     and I wanted you to have something that isn't.<br><br>
     Look around — there's a complaint box, a shared sky, an imagined city where
-    we're never actually apart (still working on it, complete it soon), and a newspaper that's only ever about us.
+    we're never actually apart, and a newspaper that's only ever about us.
     </div>
     """, unsafe_allow_html=True)
 
@@ -373,56 +373,115 @@ elif page == "🗺️ If We Were In The Same City":
     st.markdown("<h2>🗺️ If We Were In The Same City</h2>", unsafe_allow_html=True)
     st.markdown(f"""
     <div class="mile-card">
-    Not real yet. But it will be. Pick a spot in {CONFIG['his_city'].split(',')[0]}
-    and see what a Talo & Rara afternoon there would actually look like.
+    Not real yet. But it will be. Pick a place in {CONFIG['his_city'].split(',')[0]}
+    and imagine a very ordinary day together there — the kind of ordinary
+    that feels extraordinary when you're doing it with the person you miss.
     </div>
     """, unsafe_allow_html=True)
 
+    # Real Sheikhupura-area spots with Wikimedia Commons photographs.
+    # The photos below are CC BY-SA licensed; attribution is shown under the image.
     SPOTS = {
-        "☕ The corner cafe": (
-            "Rara insists the chai here is too sweet. Talo ordered it that way on "
-            "purpose weeks ago and has never confessed. They split one samosa, "
-            "argue about it being one bite too small, order a second."
-        ),
-        "🏰 Hiran Minar": (
-            "Talo drags Rara out here at golden hour, swearing the lake looks better "
-            "at sunset. It does. Neither of them says anything for a while — they "
-            "just sit at the edge of the water and let it be quiet on purpose, for once."
-        ),
-        "🛍️ The evening market": (
-            "Rara bargains like it's a sport. Talo just stands there holding bags, "
-            "already outvoted on three things he swore he didn't need. He needed them."
-        ),
-        "🌳 The park bench": (
-            "Ten minutes turns into two hours. Talo brought his phone to show her a "
-            "meme and forgot to open it. They just talk. It's the most boring, "
-            "most perfect part of the whole day."
-        ),
-        "🎬 The old cinema": (
-            "Rara picks the movie. Talo pretends to watch it and mostly watches her "
-            "laugh at the parts that aren't even that funny. Worth the ticket."
-        ),
-        "🏯 Sheikhupura Fort": (
-            "Talo does a terrible, overconfident tour-guide voice reciting half-remembered "
-            "history. Rara corrects him twice. He keeps going anyway. She lets him."
-        ),
+        "🏰 Sheikhupura Fort": {
+            "story": (
+                "Talo insists on giving Rara the full tour even though he only remembers "
+                "about half the history. Rara catches every confident mistake. They walk "
+                "slowly through the old walls, stop for photos, and argue over which one "
+                "looks better. Neither wants to leave first."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sheikhupura_Fort_White_Haveli.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Sheikhupura_Fort_White_Haveli.jpg",
+            "credit": "Photo: Omarjhawarian — Wikimedia Commons, CC BY-SA 3.0",
+        },
+        "🌿 Hiran Minar": {
+            "story": (
+                "Golden hour. A long walk beside the water. Talo says the view is the "
+                "reason they came, but Rara knows he mostly wanted somewhere quiet enough "
+                "to sit beside her without checking the time. They take one photo, then "
+                "forget about the camera."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hiran_Minaar%2C_Sheikhupura.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Hiran_Minaar,_Sheikhupura.jpg",
+            "credit": "Photo: Taeja — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🌸 Shrine of Waris Shah": {
+            "story": (
+                "A quieter afternoon in Jandiala Sher Khan. They walk through the garden, "
+                "talk about old stories and poetry, and then sit somewhere peaceful. "
+                "Rara gets unexpectedly sentimental. Talo pretends not to notice because "
+                "he is absolutely going to tease her about it later."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Shrine_of_Waris_Shah.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Shrine_of_Waris_Shah.jpg",
+            "credit": "Photo: Nawab Afridi — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🏏 Sheikhupura Stadium": {
+            "story": (
+                "Talo claims this is going to be a quick stop. It is not. One discussion "
+                "about cricket becomes a full debate, followed by snacks, people-watching, "
+                "and Rara making fun of how seriously he takes the score. A very normal "
+                "day. Exactly the point."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
+            "credit": "Photo: Basit Nadeem — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "☕ The corner cafe": {
+            "story": (
+                "Rara orders chai. Talo says it is too sweet. Rara says that is exactly "
+                "how chai is supposed to taste. They split one samosa, argue about who got "
+                "the bigger piece, and somehow spend two hours there."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
+        "🛍️ The evening market": {
+            "story": (
+                "Rara bargains like it is an Olympic sport. Talo carries the bags and "
+                "quietly loses every argument about whether they actually needed the "
+                "thing they just bought. They did. Obviously."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
+        "🌳 The park bench": {
+            "story": (
+                "They sit down for ten minutes and stay for two hours. Talo opens his "
+                "phone to show her something and forgets what it was. They just talk. "
+                "No big plan. No occasion. Just finally being in the same place."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
     }
 
-    cols = st.columns(3)
+    cols = st.columns(2)
     for i, spot in enumerate(SPOTS.keys()):
-        with cols[i % 3]:
+        with cols[i % 2]:
             if st.button(spot, key=f"spot_{i}", width='stretch'):
                 st.session_state["picked_spot"] = spot
 
     picked = st.session_state.get("picked_spot", list(SPOTS.keys())[0])
+    selected = SPOTS[picked]
+
     st.markdown(f"""
     <div class="mile-card" style="text-align:center; margin-top:1rem;">
     <h3 style="margin-top:0;">{picked}</h3>
-    <i>{SPOTS[picked]}</i>
+    <i>{selected["story"]}</i>
     </div>
     """, unsafe_allow_html=True)
-    st.caption("Sketch-and-words version for now — drop real Talo & Rara scene "
-               "illustrations into assets/spots/ later and this card can show them instead.")
+
+    if selected["image"]:
+        st.image(selected["image"], width="stretch")
+        st.caption(selected["credit"])
+        st.markdown(
+            f"[View the original photo on Wikimedia Commons]({selected['source']})"
+        )
+    else:
+        st.info("This one is an imagined date spot for now — the real-photo version can be added later.")
 
 # ============================================================
 # THE TALO TIMES
