@@ -476,9 +476,9 @@ elif page == "🗺️ If We Were In The Same City":
                 "screen. Just two cups of chai, one ridiculous amount of staring at the "
                 "mosque, and Rara quietly saying, 'I wish we could do this every week.'"
             ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Night_view_of_Badshahi_Masjid_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Night_view_of_Badshahi_Masjid_Lahore.jpg",
-            "credit": "Photo: Intisar Ali — Wikimedia Commons, CC BY-SA 4.0",
+            "image": "assets/rooftop_chai.png",
+            "source": "https://www.instagram.com/p/DTtB7nxCKDs/",
+            "credit": "Photo provided by you from Instagram (@butt_karahi_bbq)",
         },
 
         "🌳 The park bench": {
