@@ -426,6 +426,81 @@ elif page == "🗺️ If We Were In The Same City":
             "source": "https://commons.wikimedia.org/wiki/File:%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
             "credit": "Photo: Basit Nadeem — Wikimedia Commons, CC BY-SA 4.0",
         },
+
+        "🕌 Badshahi Mosque, Lahore": {
+            "story": (
+                "They finally get to walk through the same courtyard instead of talking "
+                "about it over a phone screen. Rara looks up at the domes. Talo looks at "
+                "her first. They take too many photos and still somehow forget the one "
+                "photo they both wanted."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Badshahi_Mosque_in_Lahore_panoramic_view.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Badshahi_Mosque_in_Lahore_panoramic_view.jpg",
+            "credit": "Photo: Marsmux — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🏯 Lahore Fort": {
+            "story": (
+                "Talo walks into guide mode immediately. Rara lets him have exactly five "
+                "minutes before correcting something. They wander through the fort, stop "
+                "for a quiet view, and spend half the afternoon pretending they are not "
+                "already tired."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lahore_Fort%2C_Lahore..jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Lahore_Fort,_Lahore..jpg",
+            "credit": "Photo: Kamran Aslam — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🗼 Minar-e-Pakistan": {
+            "story": (
+                "A late-afternoon walk through the park. They sit somewhere with the "
+                "tower in the distance and talk about absolutely nothing important. "
+                "Talo insists they need one dramatic couple photo. Rara eventually gives in."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Minar-E-Pakistan%2C_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Minar-E-Pakistan,_Lahore.jpg",
+            "credit": "Photo: NainaR — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🌺 Shalimar Gardens": {
+            "story": (
+                "They slow down here on purpose. Rara wants to see every fountain and "
+                "garden level. Talo keeps saying he is not tired while absolutely looking "
+                "for the next place to sit. Eventually they find a quiet corner and stay."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Shalimar_Gardens_%28Lahore%29_1.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Shalimar_Gardens_(Lahore)_1.jpg",
+            "credit": "Photo: Guilhem Vellut — Wikimedia Commons, CC BY 2.0",
+        },
+        "🕌 Wazir Khan Mosque": {
+            "story": (
+                "A little walk through the Walled City, with Rara stopping every few "
+                "minutes to look at the tiles. Talo says they are beautiful. Rara says "
+                "he has only noticed because she pointed them out. He has no defense."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Wazir_khan_Mosque_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Wazir_khan_Mosque_Lahore.jpg",
+            "credit": "Photo: Saadmuzafar — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🍽️ Fort Road Food Street": {
+            "story": (
+                "They arrive hungry and immediately forget the plan. One restaurant turns "
+                "into another snack, then chai, then dessert. Talo says they should walk "
+                "after dinner. Rara agrees, provided the walk includes another snack."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Badshahi_Mosque_from_New_Food_Street%2C_Fort_Road%2C_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Badshahi_Mosque_from_New_Food_Street,_Fort_Road,_Lahore.jpg",
+            "credit": "Photo: Khadijareyaz — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🫖 Rooftop chai at Cuckoo's Den": {
+            "story": (
+                "This is the tea one. Rooftop, evening air, Badshahi Mosque glowing "
+                "right in front of them. No video call. No 'can you hear me?' No frozen "
+                "screen. Just two cups of chai, one ridiculous amount of staring at the "
+                "mosque, and Rara quietly saying, 'I wish we could do this every week.'"
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/A_view_of_Badshahi_Mosque_from_Cuckoo_Den%27s_Rooftop_in_night.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Badshahi_Mosque_from_Cuckoo_Den%27s_Rooftop_in_night.jpg",
+            "credit": "Photo: Bilalnaqeeb — Wikimedia Commons, CC BY-SA 4.0",
+        },
+
         "☕ The corner cafe": {
             "story": (
                 "Rara orders chai. Talo says it is too sweet. Rara says that is exactly "
