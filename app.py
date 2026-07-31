@@ -389,7 +389,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "slowly through the old walls, stop for photos, and argue over which one "
                 "looks better. Neither wants to leave first."
             ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sheikhupura_Fort_White_Haveli.jpg",
+            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sheikhupura_Fort_White_Haveli.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:Sheikhupura_Fort_White_Haveli.jpg",
             "credit": "Photo: Omarjhawarian — Wikimedia Commons, CC BY-SA 3.0",
         },
@@ -400,7 +400,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "to sit beside her without checking the time. They take one photo, then "
                 "forget about the camera."
             ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Hiran_Minaar%2C_Sheikhupura.jpg",
+            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hiran_Minaar,_Sheikhupura.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:Hiran_Minaar,_Sheikhupura.jpg",
             "credit": "Photo: Taeja — Wikimedia Commons, CC BY-SA 4.0",
         },
@@ -411,7 +411,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "Rara gets unexpectedly sentimental. Talo pretends not to notice because "
                 "he is absolutely going to tease her about it later."
             ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Shrine_of_Waris_Shah.jpg",
+            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Shrine_of_Waris_Shah.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:Shrine_of_Waris_Shah.jpg",
             "credit": "Photo: Nawab Afridi — Wikimedia Commons, CC BY-SA 4.0",
         },
@@ -422,7 +422,7 @@ elif page == "🗺️ If We Were In The Same City":
                 "and Rara making fun of how seriously he takes the score. A very normal "
                 "day. Exactly the point."
             ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
+            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
             "source": "https://commons.wikimedia.org/wiki/File:%22International_Cricket_Stadium_Sheikhupura-Jun_2017.jpg",
             "credit": "Photo: Basit Nadeem — Wikimedia Commons, CC BY-SA 4.0",
         },
@@ -432,9 +432,9 @@ elif page == "🗺️ If We Were In The Same City":
                 "how chai is supposed to taste. They split one samosa, argue about who got "
                 "the bigger piece, and somehow spend two hours there."
             ),
-            "image": None,
-            "source": None,
-            "credit": None,
+            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pakistan_tea_house_(10712163555).jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Pakistan_tea_house_(10712163555).jpg",
+            "credit": "Photo: Anne Rigby / AusAID — Wikimedia Commons, CC BY 2.0",
         },
         "🛍️ The evening market": {
             "story": (
@@ -442,9 +442,9 @@ elif page == "🗺️ If We Were In The Same City":
                 "quietly loses every argument about whether they actually needed the "
                 "thing they just bought. They did. Obviously."
             ),
-            "image": None,
-            "source": None,
-            "credit": None,
+            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A_bazaar_in_Lahore,_Pakistan.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:A_bazaar_in_Lahore,_Pakistan.jpg",
+            "credit": "Photo: William Lautman — Wikimedia Commons, CC BY-SA 4.0",
         },
         "🌳 The park bench": {
             "story": (
@@ -452,137 +452,13 @@ elif page == "🗺️ If We Were In The Same City":
                 "phone to show her something and forgets what it was. They just talk. "
                 "No big plan. No occasion. Just finally being in the same place."
             ),
-            "image": None,
-            "source": None,
-            "credit": None,
-        },
-        "🌆 Lahore Food Street rooftop chai": {
-            "story": (
-                "They get a little table upstairs just before evening. One cup of chai "
-                "each, something hot to share, and the Badshahi Mosque glowing across the "
-                "old city. Talo keeps saying the view is beautiful. Rara eventually tells "
-                "him she knows he means something else."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Night_view_of_Badshahi_Masjid_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Night_view_of_Badshahi_Masjid_Lahore.jpg",
-            "credit": "Photo: Intisar Ali — Wikimedia Commons, CC BY-SA 4.0",
-        },
-        "🌿 Shalimar Gardens + thermos chai": {
-            "story": (
-                "They bring chai in a flask, walk slowly beside the water, and find a "
-                "quiet corner away from the crowd. Rara takes pictures of everything. "
-                "Talo pretends to complain, then asks her to send him all of them later."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Shalimar_Gardens%2C_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Shalimar_Gardens,_Lahore.jpg",
-            "credit": "Photo: M Umair Astro — Wikimedia Commons, CC BY-SA 4.0",
-        },
-        "🌧️ Jallo Park rainy walk": {
-            "story": (
-                "It starts raining lightly, so the original plan immediately stops mattering. "
-                "They walk anyway, share an umbrella, find somewhere dry, and drink chai "
-                "while the rain does the talking for them."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Jallo_Park.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Jallo_Park.jpg",
-            "credit": "Photo: Amirshafiquemughal — Wikimedia Commons, CC BY-SA 4.0",
-        },
-        "🕌 Lahore Fort evening + chai after": {
-            "story": (
-                "They wander through the old architecture until the light starts turning "
-                "soft. Afterward, they find chai nearby and sit with tired feet, talking "
-                "about absolutely nothing important — which somehow becomes the best part."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Lahore_Fort_view_from_a_restaurant_rooftop_in_Fort_Food_Street_managed_by_Walled_City_of_Lahore_Authority_%28WCLA%29.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Lahore_Fort_view_from_a_restaurant_rooftop_in_Fort_Food_Street_managed_by_Walled_City_of_Lahore_Authority_(WCLA).jpg",
-            "credit": "Photo: Imranhaider77 — Wikimedia Commons, CC BY-SA 4.0",
-        },
-        "☕ Old Anarkali chai stop": {
-            "story": (
-                "No fancy plan. Just one of those old-city chai stops where the tea is "
-                "hot, the chairs are slightly uncomfortable, and they somehow keep talking "
-                "until they realize an entire evening has disappeared."
-            ),
-            "image": None,
-            "source": None,
-            "credit": None,
-        },
-        "🌅 Greater Iqbal Park sunset walk": {
-            "story": (
-                "They go for a slow evening walk with no destination. Minar-e-Pakistan is "
-                "glowing as the sky changes colour, and Rara keeps stopping for photos. "
-                "Talo pretends to be impatient for exactly seven minutes."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Minar-e-Pakistan_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Minar-e-Pakistan_Lahore.jpg",
-            "credit": "Photo: Wikimedia Commons",
-        },
-        "🌿 Jilani Park picnic afternoon": {
-            "story": (
-                "A tiny picnic. Two cold drinks. One shared packet of snacks. They sit under "
-                "the trees, people-watch, and make a completely unnecessary list of places "
-                "they will visit together next."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Jilani_Park_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Jilani_Park_Lahore.jpg",
-            "credit": "Photo: Wikimedia Commons",
-        },
-        "🎨 Alhamra Arts Centre evening": {
-            "story": (
-                "They dress a little nicer than usual and go see something at Alhamra. "
-                "Afterwards they argue about which part they liked most, then walk around "
-                "the area with no real plan. A proper city-night date."
-            ),
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Alhamra_Arts_Council_Lahore.jpg",
-            "source": "https://commons.wikimedia.org/wiki/File:Alhamra_Arts_Council_Lahore.jpg",
-            "credit": "Photo: Wikimedia Commons",
-        },
-        "🛍️ Liberty Market wandering": {
-            "story": (
-                "They tell each other they are only going to look around. Forty minutes "
-                "later Rara has found something she loves, Talo has become the designated "
-                "bag carrier, and neither of them remembers what they originally came for."
-            ),
-            "image": None,
-            "source": None,
-            "credit": None,
-        },
-        "🌳 Gulberg evening drive + dessert": {
-            "story": (
-                "No landmark, no itinerary. Just music in the car, city lights outside, "
-                "and a stop for dessert. Talo drives slowly because neither of them is in "
-                "a hurry to end the evening."
-            ),
-            "image": None,
-            "source": None,
-            "credit": None,
-        },
-        "🧺 Canal-side sunset picnic": {
-            "story": (
-                "They bring a little mat, snacks, and a thermos. The plan is to watch the "
-                "sunset for twenty minutes. They stay long enough for the lights to come on "
-                "and keep talking anyway."
-            ),
-            "image": None,
-            "source": None,
-            "credit": None,
-        },
-        "📚 Old Lahore bookshop afternoon": {
-            "story": (
-                "Rara finds a book she wants. Talo says they came for one book. Somehow they "
-                "leave with several. Then they sit somewhere nearby and read a few pages "
-                "together before getting distracted and talking."
-            ),
-            "image": None,
-            "source": None,
-            "credit": None,
+            "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bench_in_Jinnah_Garden_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Bench_in_Jinnah_Garden_Lahore.jpg",
+            "credit": "Photo: Wikimedia Commons — see source page for the photographer and license",
         },
     }
 
-    st.markdown("### Lahore add-ons 🌆")
-    st.caption("More Lahore ideas: sunsets, heritage, parks, art, markets, drives, books, food — and chai.")
-
-    cols = st.columns(3)
+    cols = st.columns(2)
     for i, spot in enumerate(SPOTS.keys()):
         with cols[i % 2]:
             if st.button(spot, key=f"spot_{i}", width='stretch'):
@@ -598,14 +474,11 @@ elif page == "🗺️ If We Were In The Same City":
     </div>
     """, unsafe_allow_html=True)
 
-    if selected["image"]:
-        st.image(selected["image"], width="stretch")
-        st.caption(selected["credit"])
-        st.markdown(
-            f"[View the original photo on Wikimedia Commons]({selected['source']})"
-        )
-    else:
-        st.info("This one is an imagined date spot for now — the real-photo version can be added later.")
+    st.image(selected["image"], width="stretch")
+    st.caption(selected["credit"])
+    st.markdown(
+        f"[View the original photo on Wikimedia Commons]({selected['source']})"
+    )
 
 # ============================================================
 # THE TALO TIMES
