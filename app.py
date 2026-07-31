@@ -456,9 +456,133 @@ elif page == "🗺️ If We Were In The Same City":
             "source": None,
             "credit": None,
         },
+        "🌆 Lahore Food Street rooftop chai": {
+            "story": (
+                "They get a little table upstairs just before evening. One cup of chai "
+                "each, something hot to share, and the Badshahi Mosque glowing across the "
+                "old city. Talo keeps saying the view is beautiful. Rara eventually tells "
+                "him she knows he means something else."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Night_view_of_Badshahi_Masjid_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Night_view_of_Badshahi_Masjid_Lahore.jpg",
+            "credit": "Photo: Intisar Ali — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🌿 Shalimar Gardens + thermos chai": {
+            "story": (
+                "They bring chai in a flask, walk slowly beside the water, and find a "
+                "quiet corner away from the crowd. Rara takes pictures of everything. "
+                "Talo pretends to complain, then asks her to send him all of them later."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Shalimar_Gardens%2C_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Shalimar_Gardens,_Lahore.jpg",
+            "credit": "Photo: M Umair Astro — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🌧️ Jallo Park rainy walk": {
+            "story": (
+                "It starts raining lightly, so the original plan immediately stops mattering. "
+                "They walk anyway, share an umbrella, find somewhere dry, and drink chai "
+                "while the rain does the talking for them."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Jallo_Park.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Jallo_Park.jpg",
+            "credit": "Photo: Amirshafiquemughal — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "🕌 Lahore Fort evening + chai after": {
+            "story": (
+                "They wander through the old architecture until the light starts turning "
+                "soft. Afterward, they find chai nearby and sit with tired feet, talking "
+                "about absolutely nothing important — which somehow becomes the best part."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Lahore_Fort_view_from_a_restaurant_rooftop_in_Fort_Food_Street_managed_by_Walled_City_of_Lahore_Authority_%28WCLA%29.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Lahore_Fort_view_from_a_restaurant_rooftop_in_Fort_Food_Street_managed_by_Walled_City_of_Lahore_Authority_(WCLA).jpg",
+            "credit": "Photo: Imranhaider77 — Wikimedia Commons, CC BY-SA 4.0",
+        },
+        "☕ Old Anarkali chai stop": {
+            "story": (
+                "No fancy plan. Just one of those old-city chai stops where the tea is "
+                "hot, the chairs are slightly uncomfortable, and they somehow keep talking "
+                "until they realize an entire evening has disappeared."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
+        "🌅 Greater Iqbal Park sunset walk": {
+            "story": (
+                "They go for a slow evening walk with no destination. Minar-e-Pakistan is "
+                "glowing as the sky changes colour, and Rara keeps stopping for photos. "
+                "Talo pretends to be impatient for exactly seven minutes."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Minar-e-Pakistan_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Minar-e-Pakistan_Lahore.jpg",
+            "credit": "Photo: Wikimedia Commons",
+        },
+        "🌿 Jilani Park picnic afternoon": {
+            "story": (
+                "A tiny picnic. Two cold drinks. One shared packet of snacks. They sit under "
+                "the trees, people-watch, and make a completely unnecessary list of places "
+                "they will visit together next."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Jilani_Park_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Jilani_Park_Lahore.jpg",
+            "credit": "Photo: Wikimedia Commons",
+        },
+        "🎨 Alhamra Arts Centre evening": {
+            "story": (
+                "They dress a little nicer than usual and go see something at Alhamra. "
+                "Afterwards they argue about which part they liked most, then walk around "
+                "the area with no real plan. A proper city-night date."
+            ),
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Alhamra_Arts_Council_Lahore.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Alhamra_Arts_Council_Lahore.jpg",
+            "credit": "Photo: Wikimedia Commons",
+        },
+        "🛍️ Liberty Market wandering": {
+            "story": (
+                "They tell each other they are only going to look around. Forty minutes "
+                "later Rara has found something she loves, Talo has become the designated "
+                "bag carrier, and neither of them remembers what they originally came for."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
+        "🌳 Gulberg evening drive + dessert": {
+            "story": (
+                "No landmark, no itinerary. Just music in the car, city lights outside, "
+                "and a stop for dessert. Talo drives slowly because neither of them is in "
+                "a hurry to end the evening."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
+        "🧺 Canal-side sunset picnic": {
+            "story": (
+                "They bring a little mat, snacks, and a thermos. The plan is to watch the "
+                "sunset for twenty minutes. They stay long enough for the lights to come on "
+                "and keep talking anyway."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
+        "📚 Old Lahore bookshop afternoon": {
+            "story": (
+                "Rara finds a book she wants. Talo says they came for one book. Somehow they "
+                "leave with several. Then they sit somewhere nearby and read a few pages "
+                "together before getting distracted and talking."
+            ),
+            "image": None,
+            "source": None,
+            "credit": None,
+        },
     }
 
-    cols = st.columns(2)
+    st.markdown("### Lahore add-ons 🌆")
+    st.caption("More Lahore ideas: sunsets, heritage, parks, art, markets, drives, books, food — and chai.")
+
+    cols = st.columns(3)
     for i, spot in enumerate(SPOTS.keys()):
         with cols[i % 2]:
             if st.button(spot, key=f"spot_{i}", width='stretch'):
